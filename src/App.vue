@@ -10,6 +10,10 @@
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
         </router-link>
+        <router-link class="text-red-600 underline" to="/simple">
+          lien vers
+          <code class="font-mono">/src/pages/sio s'ne moque nple.vue</code>
+        </router-link>
       </li>
     </ul>
   </nav>
