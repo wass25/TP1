@@ -1,0 +1,23 @@
+[ 
+        {"titre":"maisonJSON3", 
+         "price":34, 
+         "nbrSDB":2,
+         "nbrLit":14,
+         "taille":700, 
+         "image":"/images-maison/maison3.jpg"},
+    
+        {"titre":"maisonJSON4",
+         "price":27,
+         "nbrSDB":2,
+         "nbrLit":1,
+         "taille":845,
+         "image":"/images-maison/maison4.jpg"},
+        
+        {"titre":"maisonJSON5",
+         "price":86,
+         "nbrSDB":1,
+         "nbrLit":74,
+         "taille":856,
+         "image":"/images-maison/maison5.jpg"}
+    
+]

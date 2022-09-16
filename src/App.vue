@@ -6,7 +6,7 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/index">
+        <router-link class="text-red-600 underline" to="/">
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
         </router-link>
@@ -24,10 +24,12 @@
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="/liste-fetch">
-          lien vers
-          <code class="font-mono">/src/pages/liste-fetch.vue</code>
-        </router-link>
+        <Suspense>
+          <router-link class="text-red-600 underline" to="/liste-fetch">
+            lien vers
+            <code class="font-mono">/src/pages/liste-fetch.vue</code>
+          </router-link>
+        </Suspense>
       </li>
     </ul>
   </nav>
